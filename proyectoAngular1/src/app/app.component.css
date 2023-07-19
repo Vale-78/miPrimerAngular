@@ -5,10 +5,19 @@ h1{
 }
 
 .miCss{
-    background-color: #f2dede;
-    padding: 5%;
-    margin-top: 3%;
-    border-radius: 8px;
+    background-color: rgb(27, 88, 19);
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
     font-size: 20px;
-    color: green;
+    color: #fff;
+}
+
+.miCssRojo{
+    background-color: rgb(242, 20, 20);
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    color: #fff;
 }

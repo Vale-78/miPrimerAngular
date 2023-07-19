@@ -7,5 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   titulo = 'Proyecto de Angular 1';
-  subtitulo= 'Probando el subtitulo'
+  subtitulo= 'Probando el subtitulo';
+ 
+
+  colores: any = ['rojo', 'azul', 'amarillo']; 
+
+  constructor(){};
+
+  addColores(color:string){
+    this.colores.push(color);
+  }
+
+
+  ngOnInit(): void{
+    alert('Hola');
+  }
 }

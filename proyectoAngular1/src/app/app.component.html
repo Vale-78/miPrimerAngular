@@ -1,6 +1,12 @@
 <h1>
   {{titulo}}
 </h1>
-<div class="miCss">
-  {{subtitulo}}
+<div>
+    <input type="text">
+    <br>
+    <button (click)="addColores('otro color')">Agregar un color</button>
+</div>
+
+<div class="miCss" *ngFor="let color of colores">
+  <p [ngClass]="{'miCssRojo':(color=='rojo')}">{{color}}</p>
 </div>
