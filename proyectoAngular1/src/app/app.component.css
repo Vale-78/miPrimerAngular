@@ -1,0 +1,14 @@
+h1{
+    font: size 40px;
+    color: red;
+    font-weight: bold; 
+}
+
+.miCss{
+    background-color: #f2dede;
+    padding: 5%;
+    margin-top: 3%;
+    border-radius: 8px;
+    font-size: 20px;
+    color: green;
+}
