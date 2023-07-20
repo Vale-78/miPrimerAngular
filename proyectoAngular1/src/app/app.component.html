@@ -2,11 +2,18 @@
   {{titulo}}
 </h1>
 <div>
-    <input type="text">
+    <input type="text" name="miColor" [(ngModel)]="miColor">
     <br>
-    <button (click)="addColores('otro color')">Agregar un color</button>
+    <!-- <button (click)="addColores(miColor)">Agregar un color</button>
+    <br>
+    <br>
+    <h2>{{colores | json}}</h2> -->
+    
 </div>
 
-<div class="miCss" *ngFor="let color of colores">
+<button (click)="mostrar=!mostrar">Mostrar colores</button>
+<!-- <div class="miCss" *ngFor="let color of colores">
   <p [ngClass]="{'miCssRojo':(color=='rojo')}">{{color}}</p>
-</div>
+</div> -->
+<app-formulario></app-formulario>
+<app-colores *ngIf="mostrar"></app-colores>
