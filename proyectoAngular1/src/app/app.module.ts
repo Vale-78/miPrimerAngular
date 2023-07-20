@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ColoresComponent } from './colores/colores.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { LineaColorComponent } from './colores/linea-color/linea-color.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LineaColorComponent } from './colores/linea-color/linea-color.component
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

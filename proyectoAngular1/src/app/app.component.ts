@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PostService } from './servicios/post.service';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,12 @@ export class AppComponent {
   mostrar = false;
  
   miColor='';
-  constructor(){};
+  constructor(private post:PostService){
+    
+    this.post.getPosts().subscribe(data => {
+      console.log("POSTS", data);
+    })
+  };
 
   // addColores(color:string){
   //   this.colores.push(color);

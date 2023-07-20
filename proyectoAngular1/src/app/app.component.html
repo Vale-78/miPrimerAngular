@@ -11,9 +11,10 @@
     
 </div>
 
-<button (click)="mostrar=!mostrar">Mostrar colores</button>
+<button (click)="mostrar=!mostrar">Mostrar lista de colores</button>
 <!-- <div class="miCss" *ngFor="let color of colores">
   <p [ngClass]="{'miCssRojo':(color=='rojo')}">{{color}}</p>
 </div> -->
 <app-formulario></app-formulario>
 <app-colores *ngIf="mostrar"></app-colores>
+<div *ngIf="!mostrar">Apriete el botón para que aparezca la lista de colores</div>
