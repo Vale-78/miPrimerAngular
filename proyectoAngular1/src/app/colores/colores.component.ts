@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 
 export class ColoresComponent {
   colores: any = ['rojo', 'azul', 'amarillo']; 
+  miColor='';
+  constructor(){};
+  
+  addColores(color:string) {
+   this.colores.push(color);
+ }
 }
+
+
+ 

@@ -1,8 +1,26 @@
 .miCss{
-    background-color: rgb(27, 88, 19);
+    background-color: rgb(9 83 102);
     padding: 1%;
     margin-top: 10px;
-    border-radius: 18px;
+    border-radius: 85px;
     font-size: 20px;
     color: #fff;
+}
+
+.inputYbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+
+.inputYbutton button{
+    border: solid 1px rgb(9 83 102);
+    background-color: #bcc2e8;
+}
+
+.inputYbutton input{
+    border: solid 4px rgb(9 83 102);
+    background-color: #bcc2e8;
+    font-size: larger;
 }

@@ -1,9 +1,20 @@
+<div class="inputYbutton">
+    <input type="text"  name="miColor" [(ngModel)]="miColor" value="Escribe un color">
+    <br>
+     <button (click)="addColores(miColor)">Agregar un color</button>
+    <br>
+    <br>
+    
+</div>
+<h2>{{colores | json}}</h2> 
 <h2>Listado de colores</h2>
 
 <hr>
 
 <div class="miCss" *ngFor="let color of colores">
     <app-linea-color [color]="color"></app-linea-color>
-  </div>
+</div>
+
+
 
 

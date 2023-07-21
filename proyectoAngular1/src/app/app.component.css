@@ -1,6 +1,23 @@
 h1{
     font: size 40px;
-    color: red;
-    font-weight: bold; 
+    color: rgb(9 83 102);
+    font-weight: bolder; 
+    text-align: center;
 }
 
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.button button{    
+    border: solid 4px rgb(9 83 102);
+    background-color: #bcc2e8;
+    font-size: larger;
+}
+
+.AprieteBoton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}

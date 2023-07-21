@@ -8,3 +8,43 @@
     font-size: 20px;
     color: #fff;
 }
+.miCssVerde{
+    background-color: green;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    color: #fff;
+}
+.miCssBlanco{
+    background-color: #fff;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    color: black;
+}
+.miCssAzul{
+    background-color: blue;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    color: #fff;
+}
+.miCssNegro{
+    background-color: black;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    color: #fff;
+}
+.miCssAmarillo{
+    background-color: yellow;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    color: #fff;
+}

@@ -21,12 +21,8 @@ export class AppComponent {
     })
   };
 
-  // addColores(color:string){
-  //   this.colores.push(color);
+
+  // ngOnInit(): void{
+  //   alert('Hola');
   // }
-
-
-  ngOnInit(): void{
-    alert('Hola');
-  }
 }
